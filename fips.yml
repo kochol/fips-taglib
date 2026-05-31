@@ -1,0 +1,12 @@
+#
+# fips-taglib  -  fipsified fork of TagLib (https://github.com/taglib/taglib)
+#
+---
+project: fips-taglib
+exports:
+    header-dirs:
+        - taglib
+        - taglib/toolkit
+        - 3rdparty/utfcpp/source
+    modules:
+        tag: .
